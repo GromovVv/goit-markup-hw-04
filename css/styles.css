@@ -360,17 +360,23 @@ padding-bottom: 50px;
 .clients-list {
 display: flex;
 list-style: none;
-
 }
-.clients-item {
-  content: "";
-  display: inline-block;
+.clients-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 170px;
   height: 90px;
   border: 1px solid #AFB1B8;
   box-sizing: border-box;
   border-radius: 4px;
 }
+.clients-list-svg {
+  width: 170px;
+  height: 90px;
+
+}
+
 .clients-item:not(:last-child) {
   margin-right: 30px;
 }
