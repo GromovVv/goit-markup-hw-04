@@ -382,7 +382,7 @@ list-style: none;
 }
 
 .clients-list-svg {
-color: currentColor;
+fill: currentColor;
 }
 
 .clients-link:hover,
@@ -392,15 +392,30 @@ color: currentColor;
   border: 1px solid var(--accent-color);
   color: var(--accent-color);
 }
-
-/* width="45" height="50"
-width="40" height="52"
-width="41" height="43"
-width="80" height="42"
-width="59" height="47"
-width="88" height="45" */
-
-
+.client1 {
+  width: 45px;
+  height: 50px;
+}
+.client2 {
+  width: 40px;
+  height: 52px;
+}
+.client3 {
+  width: 41px;
+  height: 43px;
+}
+.client4 {
+width: 80px;
+height: 42px;
+}
+.client5 {
+  width: 59px;
+  height: 47px;
+}
+.client6 {
+  width: 88px;
+  height: 45px;
+}
 
 .social-links {
   display: flex;
